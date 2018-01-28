@@ -1,0 +1,1 @@
+$(document).ready('load', function() {});
