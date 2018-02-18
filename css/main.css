@@ -12,11 +12,35 @@ body {
 
 .title {
   font-size: 2em;
-  margin: 2em 0;
+  margin-bottom: 1em;
 }
+
+.size {
+  font-size: 1.3em;
+}
+
+.white-w {
+  background-color: #FFFAFA;
+}
+
+.bg-carmesi {
+  background-color:#DC143C;
+}
+
+.bd-carmesi {
+  border: 2px solid #DC143C;
+}
+
+.carmesi {
+  color: #DC143C;
+}
+
+/* fin clases reutilizables*/
+
 
 section {
   height: 100vh;
+  padding: 3em;
 }
 
 .bg-header {
@@ -36,8 +60,9 @@ nav {
 
 .container-flex-column {
   display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+	align-items: center;
 	padding: 2em;
 }
 
@@ -46,10 +71,46 @@ nav {
 	justify-content: space-around;
 }
 
+.vh80 {
+  height: 80vh;
+}
+
 /* about me */
 
-.circle {
-  border-radius: 100%;
-  height: 30vh;
-  width: 30vw;
+
+/* portfolio */
+
+#portfolio {
+  background-image: url('../assets/images/space.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+/* contact-me */
+
+.mb5 {
+  margin-bottom: 5em;
+}
+
+footer {
+  padding-top: 3em;
+}
+
+
+
+.footer-dark {
+  background-color: rgb(53, 50, 50);
+  padding: 0.5vh 0;
+}
+
+/* prueba */
+
+#about-me {
+  background-color: #FFFAFA;
+}
+
+#contact-me {
+  /* background-color: darksalmon; */
 }
