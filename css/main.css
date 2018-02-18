@@ -100,17 +100,9 @@ footer {
   padding-top: 3em;
 }
 
-
-
 .footer-dark {
   background-color: rgb(53, 50, 50);
   padding: 0.5vh 0;
-}
-
-/* prueba */
-
-#about-me {
-  /* background-color: #FFFAFA; */
 }
 
 @media (min-width: 768px) {
