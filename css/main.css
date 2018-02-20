@@ -92,8 +92,8 @@ nav {
 
 /* contact-me */
 
-.mb5 {
-  margin-bottom: 5em;
+.mb3 {
+  margin-bottom: 3em;
 }
 
 footer {
@@ -114,7 +114,7 @@ footer {
 
   .title {
     font-size: 2em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
   }
 
   section {
