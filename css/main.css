@@ -35,6 +35,20 @@ body {
   color: #DC143C;
 }
 
+.pad3 {
+  padding: 0 3em;
+}
+
+.pins {
+  width: 25%;
+  margin: 0 1em;
+}
+
+.icons {
+  width: 25%;
+  margin: 0.5em;
+}
+
 /* fin clases reutilizables*/
 
 img.logo {
@@ -47,14 +61,10 @@ section {
 }
 
 .bg-header {
-  background-image: url('../assets/images/tech.jpg');
+  background-image: url('https://fotos.subefotos.com/eeb893fe496c4e08b850ed5c16f49841o.jpg');
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 nav {
@@ -84,7 +94,7 @@ nav {
 /* portfolio */
 
 #portfolio {
-  background-image: url('../assets/images/space.jpg');
+  background-image: url('https://fotos.subefotos.com/eac5a848b5d7bb5dc85331beec55ce88o.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -124,5 +134,9 @@ footer {
 
   #portfolio {
     height: 100vh;
+  }
+
+  .icons {
+    width: 13%;
   }
 }
