@@ -52,8 +52,14 @@ body {
 /* fin clases reutilizables*/
 
 img.logo {
-  width: 1.9em;
-  height: 1.9em;
+  width: 4em;
+  height: 4em;
+  padding: 0.2em 0;
+}
+
+#sidenav-overlay {
+  background-color: transparent;
+  z-index: auto;
 }
 
 section {
@@ -76,7 +82,7 @@ nav {
   flex-direction: column;
   justify-content: center;
 	align-items: center;
-	padding: 2em;
+	padding: 1.2em 2em;
 }
 
 .container-flex-row {
@@ -116,6 +122,9 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .nav-wrapper {
+    padding: 0 3em;
+  }
 
   img.logo {
     width: 2em;
@@ -138,5 +147,9 @@ footer {
 
   .icons {
     width: 13%;
+  }
+
+  .container-flex-column {
+    padding: 2em;
   }
 }
