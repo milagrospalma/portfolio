@@ -19,11 +19,11 @@ body {
   font-size: 1.3em;
 }
 
-.white-w {
+.white-w, .white-w:hover, .white-w:visited {
   background-color: #FFFAFA;
 }
 
-.bg-carmesi {
+.bg-carmesi, .bg-carmesi:hover, .bg-carmesi:visited {
   background-color:#DC143C;
 }
 
@@ -49,6 +49,10 @@ body {
   margin: 0.5em;
 }
 
+.btn:hover {
+  background-color: none;
+}
+
 /* fin clases reutilizables*/
 
 img.logo {
@@ -57,13 +61,18 @@ img.logo {
   padding: 0.2em 0;
 }
 
-#sidenav-overlay {
+/* #sidenav-overlay {
   background-color: transparent;
   z-index: auto;
+} */
+
+.overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 section {
-  padding: 2em;
+  /* padding: 2em; */
 }
 
 .bg-header {
@@ -73,9 +82,9 @@ section {
   height: 100vh;
 }
 
-nav {
+/* nav {
   background-color: transparent;
-}
+} */
 
 .container-flex-column {
   display: flex;
@@ -138,7 +147,7 @@ footer {
 
   section {
     height: 100vh;
-    padding: 3em;
+    /* padding: 3em; */
   }
 
   #portfolio {

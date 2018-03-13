@@ -13,33 +13,18 @@
 </head>
 
 <body>
-  <header class="bg-header white-text">
+  <header>
     <div class="navbar-fixed">
-      <nav class="nav-extended">
+      <nav>
         <div class="nav-wrapper">
           <a href="#home" class="brand-logo hide-on-med-and-down">
             <img class="circle logo" src="assets/images/logo2.jpg" alt="Logo">
-          </a>  
+          </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse">
             <img class="circle logo" src="assets/images/logo2.jpg" alt="Logo">
-            <!-- <i class="material-icons">menu</i> -->
           </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="active">
-              <a href="#home">INICIO</a>
-            </li>
+          <ul class="right hide-on-med-and-down">
             <li>
-              <a href="#about-me">SOBRE MÍ</a>
-            </li>
-            <li>
-              <a href="#portfolio">PORTAFOLIO</a>
-            </li>
-            <li>
-              <a href="#contact-me">CONTÁCTAME</a>
-            </li>
-          </ul>
-          <ul class="side-nav right" id="mobile-demo">
-            <li class="active">
               <a href="#home">INICIO</a>
             </li>
             <li>
@@ -55,12 +40,28 @@
         </div>
       </nav>
     </div>
-    
-    <div class="center-align">
+    <ul class="side-nav" id="mobile-demo">
+      <li>
+        <a href="#home">INICIO</a>
+      </li>
+      <li>
+        <a href="#about-me">SOBRE MÍ</a>
+      </li>
+      <li>
+        <a href="#portfolio">PORTAFOLIO</a>
+      </li>
+      <li>
+        <a href="#contact-me">CONTÁCTAME</a>
+      </li>
+    </ul>
+  </header>
+
+  <section id="home" class="bg-header white-text"> 
+    <div class="center-align overlay container-flex-column">
       <div class="container">
         <div class="row">
           <div class="col m10 offset-m1">
-            <div class="vh80 container-flex-column">
+            <div class="">
               <h1>Milagros Palma</h1>
               <h5>Front-end Developer</h5>
             </div>
@@ -68,7 +69,7 @@
         </div>
       </div>
     </div>
-  </header>
+  </section>
 
   <section id="about-me" class="container-flex-column">
     <div class="container-fluid">
