@@ -10,11 +10,6 @@ body {
   color: rgb(80, 80, 80);
 }
 
-.title {
-  font-size: 1.5em;
-  /* margin-bottom: 1em; */
-}
-
 .size {
   font-size: 1.3em;
 }
@@ -67,11 +62,11 @@ img.logo {
 } */
 
 .overlay {
-  height: 100vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.bg-header {
+.bg-home {
   background-image: url('https://fotos.subefotos.com/eeb893fe496c4e08b850ed5c16f49841o.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -104,11 +99,11 @@ img.logo {
 
 /* portfolio */
 
-#portfolio {
-  background-image: url('https://fotos.subefotos.com/eac5a848b5d7bb5dc85331beec55ce88o.jpg');
-  background-repeat: no-repeat;
+.bg-portfolio {
+  background-image: url('https://cdn.eso.org/images/screen/eso1035b.jpg');
+  /* background-repeat: no-repeat; */
   background-position: center;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 }
 
 /* contact-me */
