@@ -14,11 +14,11 @@ body {
   font-size: 1.3em;
 }
 
-.white-w, .white-w:hover, .white-w:visited {
+.white-w, .white-w:hover, .white-w:visited, .white-w:link {
   background-color: #FFFAFA;
 }
 
-.bg-carmesi, .bg-carmesi:hover, .bg-carmesi:visited {
+.bg-carmesi, .bg-carmesi:hover, .bg-carmesi:visited, .bg-carmesi:link {
   background-color:#DC143C;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .pins {
-  width: 25%;
+  width: 35%;
   margin: 0 1em;
 }
 
@@ -96,6 +96,25 @@ img.logo {
 
 /* about me */
 
+img[alt="css"] {
+  width: 3em;
+}
+
+img[alt="bootstrap"] {
+  width: 4em;
+}
+
+img[alt="github"] {
+  width: 5.5em;
+}
+
+img[alt="git"] {
+  width: 2.5em;
+}
+
+img[alt="firebase"] {
+  width: 5.5em;
+}
 
 /* portfolio */
 
@@ -104,6 +123,10 @@ img.logo {
   /* background-repeat: no-repeat; */
   background-position: center;
   /* background-size: 100% 100%; */
+}
+
+.description {
+  color: #212121;
 }
 
 /* contact-me */
@@ -147,6 +170,26 @@ footer {
 
   .icons {
     width: 13%;
+  }
+
+  img[alt="css"] {
+    width: 2em;
+  }
+
+  img[alt="bootstrap"] {
+    width: 3em;
+  }
+
+  img[alt="github"] {
+    width: 5em;
+  }
+
+  img[alt="firebase"] {
+    width: 5.5em;
+  }
+
+  .pins {
+    width: 20%; 
   }
 
   .container-flex-column {
