@@ -1,0 +1,227 @@
+/* variables */
+:root {
+	--carmesi: #DC143C;
+	--white: #fff;
+	--dark-gray: #212121;
+	--light-gray: #6B6969;
+}
+
+body {
+	font-family: 'Questrial', sans-serif;
+}
+
+.white-text {
+	color: var(--white);
+}
+
+.size {
+	font-size: 1.3em;
+}
+
+.white-w,
+.white-w:hover,
+.white-w:visited,
+.white-w:link {
+	background-color: var(--white);
+}
+
+.bg-carmesi,
+.bg-carmesi:hover,
+.bg-carmesi:visited,
+.bg-carmesi:link {
+	background-color: var(--carmesi);
+}
+
+.bd-carmesi {
+	border: 2px solid var(--carmesi);
+}
+
+.carmesi {
+	color: var(--carmesi) !important;
+}
+
+.pad3 {
+	padding: 0 3em;
+}
+
+.pins {
+	width: 35%;
+	margin: 0 1em;
+}
+
+.icons {
+	width: 25%;
+	margin: 0.5em;
+}
+
+.btn:hover {
+	background-color: none;
+}
+
+/* fin clases reutilizables*/
+
+img.logo {
+	width: 4em;
+	height: 4em;
+	padding: 0.2em 0;
+}
+
+.overlay {
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-home {
+	background-image: url('https://fotos.subefotos.com/eeb893fe496c4e08b850ed5c16f49841o.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.container-flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1.2em 2em;
+}
+
+.container-flex-row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.vh80 {
+	height: 80vh;
+}
+
+/* about me */
+
+img[alt="css"] {
+	width: 3.3em;
+}
+
+img[alt="vue"] {
+	width: 4em;
+}
+
+img[alt="wordpress"] {
+	width: 5.5em;
+}
+
+img[alt="git"] {
+	width: 4.5em;
+}
+
+img[alt="jira"] {
+	width: 5.5em;
+}
+
+.d-flex-wrap {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+}
+
+/* portfolio */
+
+.bg-portfolio {
+	background-image: url('https://fotos.subefotos.com/f3247522dc125a0b37bd2e4eee34088co.jpg');
+	background-position: center;
+}
+
+.description {
+	color: var(--dark-gray);
+}
+
+/* contact-me */
+
+footer {
+	padding-top: 3em;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	margin: 1rem 0;
+}
+
+.d-flex {
+	text-align: center;
+}
+
+.c-box > p {
+	color: var(--dark-gray);
+}
+
+.color-contact {
+	color: var(--light-gray) !important;
+	transition: .3s ease-in-out;
+}
+
+.color-contact:hover {
+	color: var(--carmesi) !important;
+	transition: .3s ease-in-out;
+}
+
+.footer-dark {
+	background-color: var(--dark-gray);
+	padding: 0.5vh 0;
+}
+
+@media (min-width: 768px) {
+	.nav-wrapper {
+		padding: 0 3em;
+	}
+
+	img.logo {
+		width: 2em;
+		height: 2em;
+	}
+
+	.title {
+		font-size: 2em;
+	}
+
+	section {
+		height: 100vh;
+	}
+
+	#portfolio {
+		height: 100vh;
+	}
+
+	.icons {
+		width: 13%;
+	}
+
+	img[alt="css"] {
+		width: 2.2em;
+	}
+
+	img[alt="vue"] {
+		width: 3em;
+	}
+
+	img[alt="wordpress"] {
+		width: 5em;
+	}
+
+	img[alt="jira"] {
+		width: 4em;
+	}
+
+	.pins {
+		width: 20%;
+	}
+
+	.container-flex-column {
+		padding: 2em;
+	}
+
+	.flex-container {
+		flex-direction: row;
+		margin: 3rem 0 5rem;
+	}
+}
